@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=3 uid="uid://dq60uohnl0tj8"]
+
+[ext_resource type="PackedScene" uid="uid://j5jscev87f58" path="res://Scenes/Player.tscn" id="1_r2atb"]
+[ext_resource type="Texture2D" uid="uid://dgawimmes22ii" path="res://icon.svg" id="2_uknhf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sxckr"]
+size = Vector2(821, 108)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Vloer" type="StaticBody2D" parent="."]
+position = Vector2(-9, 208)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Vloer"]
+position = Vector2(420.5, 370)
+shape = SubResource("RectangleShape2D_sxckr")
+
+[node name="Sprite2D" type="Sprite2D" parent="Vloer"]
+position = Vector2(419, 373)
+scale = Vector2(6.45313, 1)
+texture = ExtResource("2_uknhf")
+
+[node name="Vloer2" type="StaticBody2D" parent="."]
+position = Vector2(390, 80)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Vloer2"]
+position = Vector2(420.5, 370)
+shape = SubResource("RectangleShape2D_sxckr")
+
+[node name="Sprite2D" type="Sprite2D" parent="Vloer2"]
+position = Vector2(419, 373)
+scale = Vector2(6.45313, 1)
+texture = ExtResource("2_uknhf")
+
+[node name="Vloer3" type="StaticBody2D" parent="."]
+position = Vector2(647, -43)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Vloer3"]
+position = Vector2(420.5, 370)
+shape = SubResource("RectangleShape2D_sxckr")
+
+[node name="Sprite2D" type="Sprite2D" parent="Vloer3"]
+position = Vector2(419, 373)
+scale = Vector2(6.45313, 1)
+texture = ExtResource("2_uknhf")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_r2atb")]
+position = Vector2(122, 72)
