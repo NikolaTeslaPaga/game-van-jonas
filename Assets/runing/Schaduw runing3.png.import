@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6a3fi5d8w447"
-path="res://.godot/imported/Schaduw runing6.png-327ccc814b0eeaf381f1bfe449e65a13.ctex"
+uid="uid://bs0i0iv4a1bw8"
+path="res://.godot/imported/Schaduw runing3.png-9acb0810e60e4c5f74794ed093eb653f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/runing/Schaduw runing6.png"
-dest_files=["res://.godot/imported/Schaduw runing6.png-327ccc814b0eeaf381f1bfe449e65a13.ctex"]
+source_file="res://Assets/runing/Schaduw runing3.png"
+dest_files=["res://.godot/imported/Schaduw runing3.png-9acb0810e60e4c5f74794ed093eb653f.ctex"]
 
 [params]
 
