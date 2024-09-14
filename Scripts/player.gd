@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
-@export var speed = 600
+@export var speed = 400
 @export var jump_velocity = -1200
-@export var gravity = 5000
+@export var gravity = 4000
 @export_range(0.0, 1.0) var friction = 0.4
 @export_range(0.0 , 1.0) var acceleration = 0.1
 
